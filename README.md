@@ -1,6 +1,8 @@
 # XQE·雨季
 重新开源，大家随便改
 
+### 开发环境AS4.0
+
 ## 原地址：https://github.com/pansong291/XQuickEnergy
 
 [![License](https://img.shields.io/github/license/pansong291/XQuickEnergy.svg)](LICENSE)
