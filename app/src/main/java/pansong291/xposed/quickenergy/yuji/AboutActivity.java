@@ -40,7 +40,7 @@ public class AboutActivity   extends Activity {
                 "5.本APP是基于开源项目XQuickEnergy修改而来。源码地址：https://github.com/pansong291/XQuickEnergy\n" +
                 "6.作者只修复了蚂蚁森林，其他业务不感兴趣，也不会维护。\n" +
                 "7.作者没任何义务修改bug完善功能，APP是为了学习研究用。\n" +
-                "8.凡以任何方式直接、间接使用App着，视为自愿接受本声明的约束。\n" +
+                "8.凡以任何方式直接、间接使用App者，视为自愿接受本声明的约束。\n" +
                 "9.本App如无意中侵犯了某个媒体或个人的知识产权，请来信或来电告之，作者将立即删除。");
         tvInfo.setOnClickListener(v -> {
             int color= (int) (Math.random()*0x00FFFFFF+0xFF000001);

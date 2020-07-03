@@ -234,11 +234,11 @@ public class AntForest {
                                     if (collected > 0) {
                                         totalCollected += collected;
                                         Statistics.addData(Statistics.DataType.COLLECTED, collected);
-                                        String str = "偷取【" + selfName + "】的大金球【" + collected + "克】";
+                                        String str = "收取【" + selfName + "】的大金球【" + collected + "克】";
                                         Log.forest(str);
                                         AntForestToast.show(str);
                                     } else {
-                                        Log.recordLog("偷取【" + selfName + "】的大金球失败", "BubbleId：" + bubbleId);
+                                        Log.recordLog("收取【" + selfName + "】的大金球失败", "BubbleId：" + bubbleId);
                                     }
                                 }
                             }
@@ -247,7 +247,6 @@ public class AntForest {
                             Log.i(TAG, "canCollectSelfEnergy err:");
                             Log.printStackTrace(TAG, e1);
                         }
-
                 }
             } else {
                 Log.recordLog(jo.getString("resultDesc"), s);
