@@ -35,6 +35,14 @@
 -keep public class pansong291.xposed.quickenergy.hook.XposedHook                # YUJI不被混淆
 -keep public class com.alibaba.fastjson.*                                       # YUJI不被混淆
 
+-keep public class pansong291.xposed.quickenergy.antForest.AntForest            # YUJI不被混淆
+
+-keep public class java.util.List
+-keepnames class pansong291.xposed.quickenergy.antForest.AntForest$* {          # YUJI不被混淆内部类
+    public <fields>;
+    public <methods>;
+}
+
 -keepnames class pansong291.xposed.quickenergy.ui.MainActivity {                # YUJI不被混淆方法名
     public <fields>;
     public isModuleActive();

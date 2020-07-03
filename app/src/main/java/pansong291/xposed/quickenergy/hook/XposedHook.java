@@ -43,7 +43,6 @@ public class XposedHook implements IXposedHookLoadPackage {
             XposedHelpers.findAndHookMethod("pansong291.xposed.quickenergy.ui.MainActivity", lpparam.classLoader, "isModuleActive", new XC_MethodHook() {
                 @Override
                 protected void afterHookedMethod(MethodHookParam param) throws Throwable {
-                    YLog.e("1111111111111111111111111111111111111111111111");
                     param.setResult(true);
                     super.afterHookedMethod(param);
                 }
